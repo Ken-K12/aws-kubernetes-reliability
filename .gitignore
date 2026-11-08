@@ -25,3 +25,11 @@ override.tf.json
 # OS / editor files
 .DS_Store
 .vscode/
+
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+*.pycache/
