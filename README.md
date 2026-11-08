@@ -13,10 +13,10 @@ A hands-on Kubernetes project demonstrating reliability and scaling patterns on 
 ## Architecture
 
 - Kubernetes Deployment
-- 3 replicas
+- 2 replicas (baseline)
 - Service
 - Liveness and readiness probes
-- HPA: 3-10 replicas
+- HPA: 2-4 replicas
 - CPU target: 50%
 
 ## Quick Start
@@ -26,3 +26,7 @@ kubectl apply -f k8s/
 kubectl get pods
 kubectl get svc
 kubectl get hpa
+
+# Self-healing test
+./scripts/self-healing-test.sh
+```
