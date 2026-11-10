@@ -26,3 +26,11 @@ kubectl apply -f k8s/
 kubectl get pods
 kubectl get svc
 kubectl get hpa
+```
+
+## Portfolio Roadmap
+
+This repository is the first of a series of DevOps/SRE portfolio labs.
+
+- [Portfolio roadmap (5 core labs)](docs/portfolio-roadmap.md)
+- [Additional CV-driven themes](docs/additional-themes.md)
